@@ -1,27 +1,180 @@
 <!DOCTYPE html>
 
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
-    </div>
-    <include src="./views/footer.html"></include>
-    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-  </body>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="./assets/styles/main.scss"
+        />
+        <!-- do not remove this line! -->
+        <title>Cueva de los Verdes</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href="http://">
+                    <img
+                        src="./assets/images/logo.png?width=100"
+                        alt="Universitat Oberta de Catalunya"
+                        class="uoc-logo"
+                    />
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#cueva"></a>Cueva de los Verdes</li>
+                    <li><a href="#formacion"></a>Formación Geológica</li>
+                    <li><a href="#intervencion"></a>Intervencion</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Cueva de los Verdes</h1>
+            <picture>
+                <source
+                    srcset="
+                        ./assets/images/Lanzarote_5_Luc_Viatour.jpg?as=webp&width=350
+                    "
+                    type="image/webp"
+                />
+                <img
+                    src="./assets/images/Lanzarote_5_Luc_Viatour.jpg?width=350"
+                    alt="Interior de la Cueva de los Verdes"
+                />
+            </picture>
+            <section>
+                <h2>Cueva de los Verdes</h2>
+                <p>
+                    La Cueva de los Verdes es una singular formación de
+                    características paisajísticas y vulcanológicas de un valor
+                    extraordinario. Situada al norte de la isla de Lanzarote,
+                    (Canarias, España), e integrada en el vasto paisaje
+                    volcánico del Malpaís de la Corona, es una de las maravillas
+                    que esconden las entrañas de Lanzarote, dotada de un
+                    carácter mitológico misterioso y especial.
+                </p>
+            </section>
+            <section>
+                <h2>Formación geológica</h2>
+                <p>
+                    El tubo se formó hace aproximadamente 25.000 años (erupción
+                    anterior a Timanfaya), cuando las lavas muy fluidas
+                    descendieron por debajo de lavas más compactas, creando una
+                    gran cavidad alargada.
+                </p>
+                <p>
+                    El tubo tiene una longitud total de siete kilómetros desde
+                    el volcán de la Corona hasta la costa, prologándose su
+                    recorrido bajo el mar en el conocido como Túnel de la
+                    Atlántida durante 1500 metros, siendo así porque el nivel
+                    del mar (durante la última glaciación) estaba 80 metros por
+                    debajo del nivel actual. En la parte más cercana a la costa
+                    de dicho tubo volcánico se sitúan los Jameos del Agua.
+                </p>
+                <p>
+                    La cueva fue utilizada por la población local para
+                    refugiarse de los ataques de corsarios berberiscos que
+                    periódicamente asolaban la isla, recibiendo el nombre de
+                    Cueva de los Verdes, porque la familia Verdes usaba esta
+                    cueva como refugio de sus animales y frecuentaban la zona,
+                    desde entonces a esta cueva se le conoce como Cueva de los
+                    Verdes.
+                </p>
+            </section>
+            <section>
+                <h2>Intervención arquitectónica</h2>
+                <p>
+                    Durante la década de los 60, el Cabildo de Lanzarote encarga
+                    la adecuación de la cueva a Jesús Soto, quien luego se
+                    convertiría en colaborador de César Manrique, adaptándola
+                    para convertirla una de las atracciones más deseadas por
+                    viajeros, eruditos y científicos procedentes de todo el
+                    mundo, fascinados por esta singular formación.
+                </p>
+                <p>
+                    Respetando el entorno natural, la mano del hombre se limita
+                    a acondicionar el sendero que nos conduce a través de la
+                    cueva, así como a introducir la luz y el sonido ambiental,
+                    que perfectamente mimetizados, crean una atmósfera de una
+                    belleza extraña y a la vez poética.
+                </p>
+            </section>
+            <!-- Slider main container -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <picture>
+                            <source
+                                srcset="
+                                    ./assets/images/Lanzarote_5_Luc_Viatour.jpg?as=webp&width=350
+                                "
+                                type="image/webp"
+                            />
+                            <img
+                                src="./assets/images/Lanzarote_5_Luc_Viatour.jpg?width=350"
+                                alt="Interior de la Cueva de los Verdes"
+                            />
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source
+                                srcset="
+                                    ./assets/images/JameosDelAgua_Konzertsaal.jpg?as=webp&width=350
+                                "
+                                type="image/webp"
+                            />
+                            <img
+                                src="./assets/images/JameosDelAgua_Konzertsaal.jpg?width=350"
+                                alt="Interior de la Cueva de los Verdes"
+                            />
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source
+                                srcset="
+                                    ./assets/images/Lanzarote_6_Luc_Viatour.jpg?as=webp&width=350
+                                "
+                                type="image/webp"
+                            />
+                            <img
+                                src="./assets/images/Lanzarote_6_Luc_Viatour.jpg?width=350"
+                                alt="Interior de la Cueva de los Verdes"
+                            />
+                        </picture>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </main>
+        <div class="uoc-container">
+            <picture>
+                <source
+                    srcset="./assets/images/logo.png?as=webp&width=350"
+                    type="image/webp"
+                />
+                <img
+                    src="./assets/images/logo.png?width=350"
+                    alt="Universitat Oberta de Catalunya"
+                    class="uoc-logo"
+                />
+            </picture>
+            <h1 class="uoc-title">Hello, UOC!</h1>
+            <p>
+                This is a starter template for the Advanced HTML and CSS Tools
+                courses from the Master's Program in Multimedia Applications and
+                the Master's Program in Web App and Website Development at the
+                Universitat Oberta de Catalunya.
+            </p>
+        </div>
+        <include src="./views/footer.html"></include>
+        <script type="module" src="./assets/scripts/main.js"></script>
+        <!-- do not remove this line! -->
+    </body>
 </html>

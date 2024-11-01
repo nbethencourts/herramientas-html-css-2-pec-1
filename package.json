@@ -49,5 +49,8 @@
     "stylelint-config-recommended-scss": "^14.1.0",
     "stylelint-scss": "^6.8.1",
     "stylelint-selector-bem-pattern": "^4.0.1"
+  },
+  "dependencies": {
+    "swiper": "^11.1.14"
   }
 }
