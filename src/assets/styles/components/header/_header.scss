@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: rgb(238, 171, 63);
+}
+
+.header__img {
+  max-width: 128px;
+  border-radius: 60px;
+}
+
+.header__nav {
+  display: inline-block;
+  flex-grow: 1;
+}
