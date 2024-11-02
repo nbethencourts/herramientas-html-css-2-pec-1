@@ -8,13 +8,8 @@
     ],
     "rules": {
         "plugin/selector-bem-pattern": {
-            "implicitComponents": "src/**/*.scss",
-            "preset": "bem",
-            "componentName": "[a-z0-9]+",
-            "componentSelectors": {
-                "initial": "^\\.{componentName}(?:__[a-z0-9]+)?(?:--[a-z0-9]+)?$"
-            },
-            "utilitySelectors": "^\\.u-[a-z0-9]+$"
+            "implicitComponents": true,
+            "preset": "bem"
         }
     }
 }
