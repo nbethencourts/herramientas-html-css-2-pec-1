@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.footer__ul {
+  display: flex;
+  padding: 0.3rem 0.6rem;
+  list-style-type: none;
+}
+
+.footer__li {
+  padding: 0.1rem 0.4rem;
+}
+.footer__li--separador {
+  &::after {
+    padding-left: 0.5rem;
+    line-height: 2;
+    color: white;
+    content: "|";
+  }
+  &:last-child::after {
+    padding-right: 0;
+    padding-left: 0;
+    content: "";
+  }
+}
+.footer__red-social {
+  vertical-align: middle;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+.footer__a {
+  display: inline-block;
+}
