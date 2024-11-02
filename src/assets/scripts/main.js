@@ -11,8 +11,6 @@ import { Navigation, Pagination } from 'swiper/modules';
  */
 
 +( function() {
-  const university = "UOC";
-  console.log(`Hello, ${university}!`);
   const swiper = new Swiper(".mySwiper", {
     modules: [Navigation, Pagination],
     loop: true,
