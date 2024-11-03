@@ -1,0 +1,17 @@
+.map {
+  color: $accent-color;
+  padding: 2rem;
+}
+.map__iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  border: 0;
+}
+.map__link {
+  text-decoration: none;
+  color: $accent-color;
+  &:hover {
+    color: $accent-color-light;
+  }
+}

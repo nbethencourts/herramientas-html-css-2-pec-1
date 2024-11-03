@@ -20,7 +20,7 @@
 @import "components/ul/ul";
 @import "components/footer/footer";
 @import "components/imagen/imagen";
-@import "components/iframe/iframe";
+@import "components/map/map";
 @import "components/container/container";
 
 /**
@@ -31,6 +31,7 @@
 @import "swiper/swiper";
 @import "swiper/modules/navigation";
 @import "swiper/modules/pagination";
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
 
 /**
  * Import layouts
