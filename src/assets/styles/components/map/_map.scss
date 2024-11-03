@@ -8,8 +8,8 @@
   border: 0;
 }
 .map__link {
-  text-decoration: none;
   color: $accent-color;
+  text-decoration: none;
   &:hover {
     color: $accent-color-light;
   }

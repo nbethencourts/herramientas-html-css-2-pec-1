@@ -2,19 +2,19 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 1rem;
-  background-color: $dark-color;
-  color: white;
   padding: 1rem;
+  margin-top: 1rem;
   font-size: 13px;
+  color: white;
+  background-color: $dark-color;
 }
 
 .footer__ul {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
   padding: 0.3rem;
   list-style-type: none;
-  justify-content: flex-end;
 }
 
 .footer__li {
@@ -33,10 +33,10 @@
   }
 }
 .footer__redes-politicas {
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: end;
+  height: 100%;
 }
 .footer__red-social {
   vertical-align: middle;
