@@ -9,8 +9,8 @@
   font-style: italic;
 }
 .picture__a {
-  text-decoration: none;
   color: $accent-color;
+  text-decoration: none;
   &:hover {
     color: $accent-color-light;
   }
