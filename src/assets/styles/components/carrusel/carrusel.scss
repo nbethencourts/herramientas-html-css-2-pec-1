@@ -1,7 +1,10 @@
 .carrusel {
-  width: 500px;
-  height: 400px;
+  width: 90%;
+  max-width: 500px;
   padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .carrusel__slide {
@@ -10,7 +13,6 @@
   justify-content: center;
   font-size: 18px;
   text-align: center;
-  background: #fff;
 }
 
 .carrusel__img {
@@ -18,4 +20,10 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.carrusel__button {
+  color: $accent-color;
+}
+.swiper-pagination-bullet-active {
+  background-color: $dark-color;
 }

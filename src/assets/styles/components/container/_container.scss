@@ -27,7 +27,8 @@
     padding: 1rem;
   }
 }
-.container__section--odd {
+.container__section--odd,
+.container--odd {
   background-color: $accent-color-light;
 }
 
