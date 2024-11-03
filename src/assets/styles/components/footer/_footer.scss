@@ -3,13 +3,18 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 1rem;
-  background-color: $primary-color;
+  background-color: $dark-color;
+  color: white;
+  padding: 1rem;
+  font-size: 13px;
 }
 
 .footer__ul {
   display: flex;
-  padding: 0.3rem 0.6rem;
+  flex-direction: row;
+  padding: 0.3rem;
   list-style-type: none;
+  justify-content: flex-end;
 }
 
 .footer__li {
@@ -19,7 +24,6 @@
   &::after {
     padding-left: 0.5rem;
     line-height: 2;
-    color: white;
     content: "|";
   }
   &:last-child::after {
@@ -27,6 +31,12 @@
     padding-left: 0;
     content: "";
   }
+}
+.footer__redes-politicas {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 .footer__red-social {
   vertical-align: middle;
@@ -36,4 +46,10 @@
 }
 .footer__a {
   display: inline-block;
+}
+.footer__politicas {
+  color: white;
+  &:hover {
+    opacity: 0.7;
+  }
 }
