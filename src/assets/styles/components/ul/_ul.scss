@@ -13,6 +13,11 @@
     color: $accent-color;
   }
 }
+.ul__li--accent {
+  :hover {
+    color: $accent-color-secondary;
+  }
+}
 .ul__a {
   text-decoration: none;
 }
