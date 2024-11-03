@@ -43,8 +43,8 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <h1>Cueva de los Verdes</h1>
+        <main class="container">
+            <h1 class="container__h1">Cueva de los Verdes</h1>
             <picture>
                 <source
                     srcset="
@@ -58,10 +58,18 @@
                 />
                 <img
                     src="./assets/images/Lanzarote_5_Luc_Viatour.jpg?width=350"
+                    srcset="
+                        ./assets/images/Lanzarote_5_Luc_Viatour.jpg?width=320 320w,
+                        ./assets/images/Lanzarote_5_Luc_Viatour.jpg?width=480 480w,
+                        ./assets/images/Lanzarote_5_Luc_Viatour.jpg?width=640 640w,
+                        ./assets/images/Lanzarote_5_Luc_Viatour.jpg?width=800 800w
+                    "
+                    sizes="(max-width: 320px) 100vw, (max-width: 480px) 90vw, (max-width: 900px) 86vw, 800px"
                     alt="Interior de la Cueva de los Verdes"
-                    class="imagen-responsive"
+                    class="imagen"
                 />
             </picture>
+
             <section>
                 <h2 id="cueva">Cueva de los Verdes</h2>
                 <p>
@@ -106,7 +114,7 @@
                         type="image/webp"
                     />
                     <img
-                        class="imagen-responsive"
+                        class="imagen"
                         src="./assets/images/volcan.png?width=350"
                         alt="Interior de la Cueva de los Verdes"
                     />
@@ -135,7 +143,7 @@
                         type="image/webp"
                     />
                     <img
-                        class="imagen-responsive"
+                        class="imagen"
                         src="./assets/images/cartel.jpg?width=350"
                         alt="Interior de la Cueva de los Verdes"
                     />
@@ -194,70 +202,70 @@
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
             </div>
+            <section>
+                <h2>Qué ver</h2>
+                <p>
+                    Las peculiares formaciones y estructuras pétreas del
+                    interior: canales de lava, goterones solidificados, bloques
+                    sólidos arrastrados por la corriente, depósitos salinos y
+                    todo tipo de estafilitos.
+                </p>
+                <p>
+                    La Sala de las Estetas, la Garganta de la Muerte y la Puerta
+                    Mora: son las tres áreas fascinantes en las que se divide el
+                    recorrido.
+                </p>
+                <p>
+                    El impresionante acantilado del final del recorrido: le
+                    recomendamos atender a las indicaciones del guía ante el
+                    inminente abismo.
+                </p>
+            </section>
+
+            <section>
+                <h2>Qué hacer</h2>
+                <p>
+                    Disfrutar con el recorrido como si éste fuera una meditación
+                    en movimiento, sumergiéndonos en su misterio y partiendo del
+                    imaginario de un viaje iniciático al centro de la Tierra.
+                </p>
+                <p>
+                    Contemplar la gama de ocres, grises, negros y rojizos que
+                    reinan en la oscuridad, dibujando grotescos paisajes y
+                    espectaculares estructuras rocosas.
+                </p>
+                <p>
+                    Asistir a alguno de los conciertos que se realizan en el
+                    Auditorio, un espacio espectacular de increíbles condiciones
+                    acústicas.
+                </p>
+                <p>
+                    Continuar la excursión visitando los Jameos del Agua, su
+                    fascinante centro vecino obra del artista César Manrique.
+                </p>
+            </section>
+
+            <iframe
+                class="iframe"
+                width="600"
+                height="450"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-13.4494389%2C29.1505313%2C-13.4294389%2C29.1705313&layer=mapnik&marker=29.1605313%2C-13.4394389"
+                style="border: 1px solid black"
+            ></iframe>
+            <br />
+            <small>
+                <a
+                    href="https://www.openstreetmap.org/?mlat=29.1605313&mlon=-13.4394389#map=15/29.1605/-13.4394"
+                    target="_blank"
+                >
+                    Ampliar
+                </a>
+            </small>
         </main>
-
-        <section>
-            <h2>Qué ver</h2>
-            <p>
-                Las peculiares formaciones y estructuras pétreas del interior:
-                canales de lava, goterones solidificados, bloques sólidos
-                arrastrados por la corriente, depósitos salinos y todo tipo de
-                estafilitos.
-            </p>
-            <p>
-                La Sala de las Estetas, la Garganta de la Muerte y la Puerta
-                Mora: son las tres áreas fascinantes en las que se divide el
-                recorrido.
-            </p>
-            <p>
-                El impresionante acantilado del final del recorrido: le
-                recomendamos atender a las indicaciones del guía ante el
-                inminente abismo.
-            </p>
-        </section>
-
-        <section>
-            <h2>Qué hacer</h2>
-            <p>
-                Disfrutar con el recorrido como si éste fuera una meditación en
-                movimiento, sumergiéndonos en su misterio y partiendo del
-                imaginario de un viaje iniciático al centro de la Tierra.
-            </p>
-            <p>
-                Contemplar la gama de ocres, grises, negros y rojizos que reinan
-                en la oscuridad, dibujando grotescos paisajes y espectaculares
-                estructuras rocosas.
-            </p>
-            <p>
-                Asistir a alguno de los conciertos que se realizan en el
-                Auditorio, un espacio espectacular de increíbles condiciones
-                acústicas.
-            </p>
-            <p>
-                Continuar la excursión visitando los Jameos del Agua, su
-                fascinante centro vecino obra del artista César Manrique.
-            </p>
-        </section>
-
-        <iframe
-            width="600"
-            height="450"
-            frameborder="0"
-            scrolling="no"
-            marginheight="0"
-            marginwidth="0"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=-13.4494389%2C29.1505313%2C-13.4294389%2C29.1705313&layer=mapnik&marker=29.1605313%2C-13.4394389"
-            style="border: 1px solid black"
-        ></iframe>
-        <br />
-        <small>
-            <a
-                href="https://www.openstreetmap.org/?mlat=29.1605313&mlon=-13.4394389#map=15/29.1605/-13.4394"
-                target="_blank"
-            >
-                Ampliar
-            </a>
-        </small>
 
         <include src="./views/footer.html"></include>
         <script type="module" src="./assets/scripts/main.js"></script>

@@ -8,7 +8,7 @@
 
 .ul__li {
   display: inline-block;
-  margin: 0 0.4rem;
+  margin: 0 0.7rem;
   :hover {
     color: $accent-color;
   }
@@ -20,5 +20,5 @@
 .ul__a--menu {
   font-size: 1rem;
   font-weight: 600;
-  color: $primary-color;
+  color: $dark-color;
 }
