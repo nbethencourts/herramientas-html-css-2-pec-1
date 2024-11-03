@@ -3,18 +3,19 @@
   margin: 0 auto;
   background-color: $light-color;
   text-align: justify;
-  @media (min-width: $width-1) and (max-width: ($width-2 - 1)) {
-    padding-right: 3.5rem;
-    padding-left: 3.5rem;
-  }
+  //   @media (min-width: $width-1) and (max-width: ($width-2 - 1)) {
+  //     padding-right: 3.5rem;
+  //     padding-left: 3.5rem;
+  //   }
   @media (min-width: $width-2) {
-    padding-right: 4.5rem;
-    padding-left: 4.5rem;
+    // padding-right: 4.5rem;
+    // padding-left: 4.5rem;
     max-width: $width-3;
   }
 }
 .container__h1 {
   color: $dark-color;
+  padding: 1rem;
 }
 
 .container__section {
